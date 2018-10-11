@@ -1,0 +1,148 @@
+.body {
+  font-family: "proxima-nova", "Proxima Nova", sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  max-width: 75rem;
+  margin: 0 auto;
+  color: #333;
+}
+
+table tr th {
+  color: #444;
+}
+
+table tr td {
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+}
+
+a {
+  color: #37a;
+}
+
+.advert-button {
+  margin: 1em;
+  padding: 1em 2em;
+  border: 2px solid #37a;
+  background-color: #37a;
+  border-radius: 5px;
+  color: white;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.advert-button:hover {
+  background-color: white;
+  color: #37a;
+  cursor: pointer;
+}
+
+header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header img {
+  width: 200px;
+}
+
+header .header__logo-box {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+header .header__logo-box-description {
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+}
+
+header .header__logo-box-description h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header .header__button-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: white;
+  margin: 0 auto;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main iframe {
+  width: 100%;
+  max-width: 568px;
+  height: 322px;
+  margin-bottom: 35px;
+  filter: drop-shadow(0 5px 5px rgba(0,0,0,0.1));
+}
+
+section {
+  flex: 2;
+  padding: 35px;
+  min-width: 35rem;
+  background-color: white;
+}
+
+section .section__info-box {
+  padding: 1em 2em;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+  background-color: rgba(25,118,210,0.05);
+}
+
+aside {
+  flex: 1;
+  padding: 35px;
+}
+
+aside table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  border-collapse: collapse;
+  margin: 0.5em;
+  min-width: 300px;
+}
+
+aside table th, td {
+  padding: 0.5em 0.25em;
+}
+
+aside table th {
+  border-bottom: 1px solid #ccc;
+}
+
+footer {
+  padding: 70px;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.arrow {
+  font-size: 180%;
+}
