@@ -44,7 +44,7 @@ a {
   cursor: pointer;
 }
 
-header {
+.header {
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -52,11 +52,11 @@ header {
   flex-wrap: wrap;
 }
 
-header img {
+.header img {
   width: 200px;
 }
 
-header .header__logo-box {
+.header .header__logo-box {
   flex: 2;
   display: flex;
   justify-content: center;
@@ -64,18 +64,18 @@ header .header__logo-box {
   padding: 35px;
 }
 
-header .header__logo-box-description {
+.header .header__logo-box-description {
   display: flex;
   flex-direction: column;
   padding: 35px;
 }
 
-header .header__logo-box-description h1 {
+.header .header__logo-box-description h1 {
   margin: 0;
   padding: 0;
 }
 
-header .header__button-box {
+.header .header__button-box {
   flex: 1;
   display: flex;
   justify-content: center;
