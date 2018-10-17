@@ -105,7 +105,12 @@ section {
   background-color: white;
 }
 
+section h2:not(:first-child) {
+  margin-top: 35px;
+}
+
 section .section__info-box {
+  margin-top: 35px;
   padding: 1em 2em;
   border-radius: 5px;
   box-shadow: 0 5px 5px rgba(0,0,0,0.1);
