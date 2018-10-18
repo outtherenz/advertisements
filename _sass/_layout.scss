@@ -1,6 +1,4 @@
 .body {
-  font-family: "proxima-nova", "Proxima Nova", sans-serif;
-  font-size: 15px;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -8,23 +6,6 @@
   overflow-x: hidden;
   max-width: 75rem;
   margin: 0 auto;
-  color: #333;
-}
-
-table tr th {
-  color: #444;
-}
-
-table tr td {
-  color: #333;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #444;
-}
-
-a {
-  color: #37a;
 }
 
 .advert-button {
@@ -85,7 +66,6 @@ a {
 main {
   background-color: white;
   margin: 0 auto;
-  min-height: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -105,16 +85,12 @@ section {
   background-color: white;
 }
 
-section h2:not(:first-child) {
-  margin-top: 35px;
+section table {
+  width: 100%;
 }
 
-section .section__info-box {
+section h2:not(:first-child) {
   margin-top: 35px;
-  padding: 1em 2em;
-  border-radius: 5px;
-  box-shadow: 0 5px 5px rgba(0,0,0,0.1);
-  background-color: rgba(25,118,210,0.05);
 }
 
 aside {
@@ -127,16 +103,7 @@ aside table {
   table-layout: fixed;
   text-align: center;
   border-collapse: collapse;
-  margin: 0.5em;
   min-width: 300px;
-}
-
-aside table th, td {
-  padding: 0.5em 0.25em;
-}
-
-aside table th {
-  border-bottom: 1px solid #ccc;
 }
 
 footer {

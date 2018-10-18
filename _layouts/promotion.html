@@ -1,0 +1,94 @@
+{% include head.html %}
+
+<div class="body">
+  <div class="header">
+    <div class="header__logo-box">
+      <img src="/promotions{{ page.product_logo }}" />
+      <div class="header__logo-box-description">
+        <h1>
+          {{ page.product_name }}
+        </h1>
+        <p>{{ page.tagline }}</p>
+      </div>
+    </div>
+
+    <div class="header__button-box">
+      <!--
+        * * * PLEASE NOTE * * *
+        The Portal app is looking for this <a id="..."/> combination.
+        do not change.
+      -->
+      <a id="register-interest" class="advert-button">
+        Get {{ page.product_name }}
+      </a>
+    </div>
+  </div>
+  <main>
+    <section>
+      {% if page.iframe_video_src != "" %}
+        <iframe
+          src="{{ page.iframe_video_src }}"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen
+        ></iframe>
+      {% endif %}
+
+      {{ content }}
+    </section>
+    <aside>
+      <h2>
+        Data shared
+      </h2>
+      <table>
+        <tr>
+          <th>Builda Price</th>
+          <th>Data Flow</th>
+        </tr>
+        {% if page.timesheets_integration %}
+          <tr>
+            <td>Timesheets</td>
+            <td><span class="arrow">&rarr;</span></td>
+          </tr>
+        {% endif %}
+        {% if page.invoice_integration %}
+          <tr>
+            <td>Invoices</td>
+            <td><span class="arrow">&rarr;</span></td>
+          </tr>
+        {% endif %}
+        {% if page.jobs_integration %}
+          <tr>
+            <td>Jobs</td>
+            <td><span class="arrow">&rarr;</span></td>
+          </tr>
+        {% endif %}
+      </table>
+      <h2>
+        Pricing
+      </h2>
+      {{ page.product_pricing }}
+    </aside>
+  </main>
+    <footer>
+      <span>
+        <h2>
+          Interested in {{ page.product_name }}?
+        </h2>
+        <p>
+          Let us know you're interested by clicking the button.<br>
+          We'll be in contact to sort out the specifics.
+        </p>
+      </span>
+      <!--
+        * * * PLEASE NOTE * * *
+        The Portal app is looking for this <a id="..."/> combination.
+        do not change.
+      -->
+      <a id="register-interest" class="advert-button">
+        Get {{ page.product_name }}
+      </a>
+  </footer>
+</div>

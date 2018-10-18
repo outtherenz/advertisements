@@ -1,0 +1,17 @@
+# Site settings
+title: Promotional Material
+email:
+description: > # this means to ignore newlines until "baseurl:"
+  Promotional material for Builda Price integrations
+baseurl: "/promotions" # the subpath of your site, e.g. /blog/
+url: "https://ntnz.github.io" # the base hostname & protocol for your site
+twitter_username: username
+github_username: username
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
+# Build settings
+markdown: redcarpet
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
