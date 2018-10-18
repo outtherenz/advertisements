@@ -1,0 +1,56 @@
+---
+label: Promotion
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  default: promotion
+  label: layout
+  name: layout
+  description: Do not change
+  hidden: true
+  config:
+    required: false
+- type: text
+  label: Title
+  name: title
+  hidden: true
+  default: promotion
+- type: text
+  name: product_name
+  label: product name
+  config:
+    required: true
+- type: file
+  name: product_logo
+  label: product logo
+- type: text
+  label: tagline
+  name: tagline
+  config:
+    required: true
+- type: textarea
+  label: Product pricing
+  name: product_pricing
+  description: 'We recommended using a HTML table '
+- type: text
+  name: iframe_video_src
+  label: product video
+  description: Enter your product promo video <iframe src="______" />
+- type: boolean
+  label: integrates with timesheets
+  name: timesheets_integration
+  description: Check if your app integrates with Timesheets
+- type: boolean
+  name: invoice_integration
+  label: integrates with invoices
+  description: Check if your app integrates with Invoices
+- type: boolean
+  name: jobs_integration
+  label: integrates with jobs
+  description: Check if your app integrates with jobs
+pages:
+- backcoster-promotion.md
+- builda-price-pricing-promotion.md
+- out-there-business-solutions-payroll-promotion.md
+- crystal-payroll-promotion.md
