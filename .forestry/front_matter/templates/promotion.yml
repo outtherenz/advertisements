@@ -49,8 +49,3 @@ fields:
   name: jobs_integration
   label: integrates with jobs
   description: Check if your app integrates with jobs
-pages:
-- backcoster-promotion.md
-- builda-price-pricing-promotion.md
-- out-there-business-solutions-payroll-promotion.md
-- crystal-payroll-promotion.md
