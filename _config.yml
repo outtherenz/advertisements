@@ -3,7 +3,7 @@ title: Promotional Material
 email:
 description: > # this means to ignore newlines until "baseurl:"
   Promotional material for Builda Price integrations
-baseurl: "/product-info/" # the subpath of your site, e.g. /blog/
+baseurl: "/product-info" # the subpath of your site, e.g. /blog/
 url: "https://outtherenz.github.io" # the base hostname & protocol for your site
 twitter_username: username
 github_username: username
