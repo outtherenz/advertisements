@@ -19,6 +19,7 @@ fields:
   label: Categories
   name: cat
   hidden: true
-  default: [documentation]
+  default:
+  - documentation
 pages:
 - documentation/example-documentation.md

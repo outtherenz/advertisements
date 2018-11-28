@@ -2,9 +2,10 @@
 title: Example documentation
 layout: documentation
 date: 2018-11-28 03:30:30 +0000
-video_src: https://www.youtube.com/embed/dQw4w9WgXcQ
+video_src: https://s3-ap-southeast-2.amazonaws.com/back-coster-assets/backcoster.mp4
 categories:
 - documentation
+cat: []
 
 ---
 Watch this very interesting video
