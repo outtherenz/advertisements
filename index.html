@@ -12,7 +12,10 @@ layout: ''
     </script>
     
     {% for item in site.promotions %}
-    {{ item }}
+    	<script>
+          console.log({{item}})
+	    </script>
+    	{{ item }}
     {% endfor %}
   </ul>
 </div>
