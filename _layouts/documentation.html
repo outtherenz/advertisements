@@ -27,4 +27,13 @@
   </div>
 
   {{ content }}
+
+  {% if page.file %}
+    <a
+      href="{{ site.url }}{{ site.baseurl }}{{ page.page.file }}"
+      download
+    >
+      ↓&nbsp;Download file
+    </a>
+  {$ endif $}
 </div>
