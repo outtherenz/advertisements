@@ -2,17 +2,28 @@
 layout: ''
 
 ---
+{% include head-documentation.html %}
+
 <div class="home">
   <h1 class="page-heading">Builda Price Documentation</h1>
-  {% for cat in site.category-list %}
-    {% if cat == 'documentation' %}
-      {% for page in site.pages %}
-        {% for pc in page.categories %}
-          {% if pc == 'documentation' %}
-            <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</li><br />
-          {% endif %}
+  <div class="page-items">
+    {% for cat in site.category-list %}
+      {% if cat == 'documentation' %}
+        {% for page in site.pages %}
+          {% for pc in page.categories %}
+            {% if pc == 'documentation' %}
+              <div class="page-items__item">
+                <a href="{{ site.baseurl }}{{ page.url }}">
+                  <img src="{{ site.baseurl }}{{ page.poster_image }}" />
+                  <h3>{{ page.title }}</h3>
+                  <p>{{ page.content }}</p>
+                  <span class="page-items__item-row">→</span>
+                </a>
+              </div>
+            {% endif %}
+          {% endfor %}
         {% endfor %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
