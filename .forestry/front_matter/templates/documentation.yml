@@ -15,6 +15,10 @@ fields:
   description: The bucket link for your video
   config:
     required: true
+- type: file
+  label: Poster image
+  name: poster_image
+  description: The image that shows in the video box before it begun
 - type: tag_list
   label: Categories
   name: cat
