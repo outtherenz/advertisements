@@ -21,6 +21,7 @@ iframe_video_src: https://player.vimeo.com/video/224005141
 timesheets_integration: true
 invoice_integration: true
 jobs_integration: true
+categories: [promotions]
 
 ---
 * New Zealand made - Have an issue, query or request? Speak with real Kiwi construction professionals by phone or email

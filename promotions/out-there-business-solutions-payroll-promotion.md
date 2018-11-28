@@ -47,6 +47,7 @@ product_pricing: |-
 iframe_video_src: ''
 timesheets_integration: true
 invoice_integration: false
+categories: [promotions]
 
 ---
 ## About Out There

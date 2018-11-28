@@ -47,7 +47,7 @@ product_pricing: |-
       <td>$1,099.00</td>
     </tr>
   </table>
-
+categories: [promotions]
 ---
 ## About Crystal Payroll
 
