@@ -1,7 +1,7 @@
 ---
 title: Some documentation without a video
 layout: documentation
-cat:
+categories:
 - documentation
 date: 2018-11-28 23:20:23 +0000
 poster_image: ''
