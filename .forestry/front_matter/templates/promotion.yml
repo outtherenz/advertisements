@@ -53,4 +53,5 @@ fields:
   label: Categories
   name: cat
   hidden: true
-  default: [promotions]
+  default:
+  - promotions
