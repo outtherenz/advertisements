@@ -15,5 +15,10 @@ fields:
   description: The bucket link for your video
   config:
     required: true
+- type: tag_list
+  label: Categories
+  name: cat
+  hidden: true
+  default: [documentation]
 pages:
 - documentation/example-documentation.md
