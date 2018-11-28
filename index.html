@@ -10,5 +10,9 @@ layout: ''
     <script>
 	    console.log('!', {{site.documents}})
     </script>
+    
+    {% for item in site.promotions %}
+    {{ item }}
+    {% endfor %}
   </ul>
 </div>
