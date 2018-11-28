@@ -1,0 +1,17 @@
+---
+label: Documentation
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: layout
+  name: layout
+  description: Do not change
+  hidden: true
+  default: documentation
+- type: text
+  name: video_src
+  label: Video Source
+  description: The bucket link for your video
+  config:
+    required: true
