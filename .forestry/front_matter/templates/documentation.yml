@@ -25,6 +25,10 @@ fields:
   description: The optional bucket link for your video
   config:
     required: false
+- type: file
+  label: Downloadable file
+  name: file
+  description: You might want to provide some downloadable material
 - type: tag_list
   label: Categories
   name: cat
