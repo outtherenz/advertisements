@@ -49,3 +49,7 @@ fields:
   name: jobs_integration
   label: integrates with jobs
   description: Check if your app integrates with jobs
+- type: tag_list
+  label: Categories
+  name: cat
+  hidden: true
