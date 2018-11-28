@@ -11,14 +11,14 @@ layout: ''
   </ul>
   
   {% for cat in site.category-list %}
-  <ul>
-    {% for page in site.pages %}
-      {% for pc in page.categories %}
-        {% if pc == cat %}
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endif %}
+    <ul>
+      {% for page in site.pages %}
+        {% for pc in page.categories %}
+          {% if pc == cat %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
-  </ul>
-{% endfor %}
+    </ul>
+  {% endfor %}
 </div>
