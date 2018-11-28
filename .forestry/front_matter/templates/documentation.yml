@@ -17,8 +17,3 @@ fields:
     required: true
 pages:
 - documentation/example-documentation.md
-- type: tag_list
-  label: Categories
-  name: cat
-  hidden: true
-  default: [documentation]
