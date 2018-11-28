@@ -7,13 +7,12 @@
 
 <div class="body">
   <div class="container">
-    {{ poster_image }}
     {% if page.video_src != "" %}
       <video
         controls
         crossorigin
         playsinline
-        poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg"
+        poster="{{ site.url }}{{ site.baseurl }}{{ page.poster_image }}"
       >
         <source src="{{ page.video_src }}" type="video/mp4">
         <!-- Fallback for browsers that don't support the <video> element -->
