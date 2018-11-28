@@ -12,7 +12,9 @@ layout: ''
         <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
-    	{{ post }}
+    	<script>
+    		console.log({{ post }})
+	    </script>
     {% endfor %}
   </ul>
 </div>
