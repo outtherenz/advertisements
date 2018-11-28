@@ -1,14 +1,30 @@
+{% include head-playr.html %}
+
+<script>
+  // https://github.com/sampotts/plyr/#options
+  const player = new Plyr('video');
+</script>
+
 <div class="body">
-  {% if page.video_src != "" %}
-    <iframe
-      src="{{ page.video_src }}"
-      frameborder="0"
-      allow="autoplay; encrypted-media"
-      webkitallowfullscreen
-      mozallowfullscreen
-      allowfullscreen
-    ></iframe>
-  {% endif %}
+  <div class="container">
+    {% if page.video_src != "" %}
+      <video
+        controls
+        crossorigin
+        playsinline
+        poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg"
+      >
+        <source src="{{ page.video_src }}" type="video/mp4">
+        <!-- Fallback for browsers that don't support the <video> element -->
+        <a
+          href="{{page.video_src}}"
+          download
+        >
+          Download
+        </a>
+      </video>
+    {%endif %}
+  </div>
 
   {{ content }}
 </div>
