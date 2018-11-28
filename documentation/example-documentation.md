@@ -7,6 +7,7 @@ categories:
 - documentation
 cat: []
 poster_image: "/uploads/buildaprice-logo.png"
+subheading: This is an example documentation description
 
 ---
 Watch this very interesting video
