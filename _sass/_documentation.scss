@@ -58,7 +58,7 @@ html {
 }
 
 .page-items__item-image {
-  height: 200px;
+  height: 180px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -68,7 +68,6 @@ html {
 .page-items__item-row {
   float: right;
   color: $whisp;
-  height: 25px;
   font-size: 32.5px;
   font-weight: bold;
 }
