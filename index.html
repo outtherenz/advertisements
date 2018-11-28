@@ -11,6 +11,7 @@ layout: ''
       <h3><a title="{{ page.title }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h3>
       <p>{{page.excerpt}}</p>
     {% endfor %}
+
     {% for page in site.collections.promotions %}
       <li><a href="{{ page.url }}">{{ page.title }}</a></li>
     {% endfor %}
