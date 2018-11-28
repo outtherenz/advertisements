@@ -9,7 +9,6 @@ cat: []
 poster_image: "/uploads/download.png"
 subheading: Haven't you always wondered how Builda Price Pricing works? Let me tell
   you
-published: false
 
 ---
 Watch this very interesting video
