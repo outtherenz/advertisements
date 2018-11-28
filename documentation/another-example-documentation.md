@@ -6,8 +6,9 @@ video_src: https://s3-ap-southeast-2.amazonaws.com/back-coster-assets/backcoster
 categories:
 - documentation
 cat: []
-poster_image: "/uploads/buildaprice-logo.png"
-subheading: This is an example documentation description
+poster_image: "/uploads/download.png"
+subheading: Haven't you always wondered how Builda Price Pricing works? Let me tell
+  you
 published: false
 
 ---
