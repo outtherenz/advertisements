@@ -1,0 +1,64 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  color: $copy-color;
+}
+
+.home {
+  width: 75vw;
+  min-width: 420px;
+  margin: 0 auto;
+}
+
+.page-heading {
+  text-align: center;
+  margin: $margin * 2 0;
+}
+
+.page-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.page-items__item {
+  width: 300px;
+  padding: $margin;
+  margin: $margin;
+  cursor: pointer;
+  border-radius: $border-radius;
+  background-color: $off-white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  transition: all 0.25s;
+  a {
+    color: $copy-color;
+    text-decoration: none;
+  }
+  img {
+   height: auto;
+   width: 100%;
+  }
+  h3 {
+    margin: $margin / 2 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &:hover {
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+  }
+}
+
+.page-items__item-row {
+  float: right;
+  color: $whisp;
+  height: 25px;
+  font-size: 32.5px;
+  font-weight: bold;
+}
