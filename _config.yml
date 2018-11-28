@@ -9,6 +9,11 @@ twitter_username: username
 github_username: username
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
+# Collections
+collections:
+  documentation:
+    output: true
+
 # Build settings
 markdown: redcarpet
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
