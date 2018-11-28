@@ -57,6 +57,14 @@ html {
   }
 }
 
+.page-items__item-image {
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .page-items__item-row {
   float: right;
   color: $whisp;

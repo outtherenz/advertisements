@@ -14,7 +14,9 @@ layout: ''
             {% if pc == 'documentation' %}
               <div class="page-items__item">
                 <a href="{{ site.baseurl }}{{ page.url }}">
-                  <img src="{{ site.baseurl }}{{ page.poster_image }}" />
+                  <div class="page-items__item-image">
+                    <img src="{{ site.baseurl }}{{ page.poster_image }}" />
+                  </div>
                   <h3>{{ page.title }}</h3>
                   <p>{{ page.content }}</p>
                   <span class="page-items__item-row">→</span>
