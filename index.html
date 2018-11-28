@@ -9,4 +9,16 @@ layout: ''
       <li><a title="{{ page.title }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
     {% endfor %}
   </ul>
+  
+  {% for cat in site.category-list %}
+  <ul>
+    {% for page in site.pages %}
+      {% for pc in page.categories %}
+        {% if pc == cat %}
+          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+{% endfor %}
 </div>
