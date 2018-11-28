@@ -9,4 +9,4 @@ cat: []
 poster_image: "/uploads/buildaprice-logo.png"
 
 ---
-Watch another very interesting video
+Watch another interesting video
