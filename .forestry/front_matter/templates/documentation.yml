@@ -33,3 +33,4 @@ fields:
   - documentation
 pages:
 - documentation/example-documentation.md
+- documentation/another-example-documentation.md
