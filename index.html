@@ -7,10 +7,6 @@ layout: ''
   <h1 class="page-heading">{{ site.title }}</h1>
 
   <ul class="post-list">
-    <script>
-	    console.log('!')
-    </script>
-    
     {% for page in site.pages %}
       <h3><a title="{{ page.title }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h3>
       <p>{{page.excerpt}}</p>
