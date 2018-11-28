@@ -3,15 +3,10 @@ layout: ''
 
 ---
 <div class="home">
-  <h1 class="page-heading">{{ site.title }}</h1>
-  <ul class="post-list">
-    {% for page in site.pages %}
-      <li><a title="{{ page.title }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-    {% endfor %}
-  </ul>
-  
+  <h1 class="page-heading">{{ site.title }}</h1> 
   {% for cat in site.category-list %}
-    <ul>
+  	<h1>{{ cat }}</h1>
+    <ul class="post-list">
       {% for page in site.pages %}
         {% for pc in page.categories %}
           {% if pc == cat %}
