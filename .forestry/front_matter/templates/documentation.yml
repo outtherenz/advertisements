@@ -9,12 +9,6 @@ fields:
   description: Do not change
   hidden: true
   default: documentation
-- type: text
-  name: video_src
-  label: Video Source
-  description: The bucket link for your video
-  config:
-    required: true
 - type: file
   label: Poster image
   name: poster_image
@@ -23,6 +17,12 @@ fields:
   name: subheading
   label: Subheading
   description: The words which goes underneath the title
+  config:
+    required: true
+- type: text
+  name: video_src
+  label: Video Source
+  description: The bucket link for your video
   config:
     required: true
 - type: tag_list
