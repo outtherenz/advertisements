@@ -4,7 +4,7 @@ layout: ''
 ---
 <div class="home">
 
-  <h1 class="page-heading">{{ site.title }}?</h1>
+  <h1 class="page-heading">{{ site.title }}!</h1>
 
   <ul class="post-list">
     {% for post in site.categories %}
@@ -13,7 +13,7 @@ layout: ''
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     	<script>
-    		console.log({{ post }})
+    		console.log('um okay', {{ post }})
 	    </script>
     {% endfor %}
   </ul>
