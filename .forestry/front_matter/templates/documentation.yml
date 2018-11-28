@@ -22,9 +22,9 @@ fields:
 - type: text
   name: video_src
   label: Video Source
-  description: The bucket link for your video
+  description: The optional bucket link for your video
   config:
-    required: true
+    required: false
 - type: tag_list
   label: Categories
   name: cat
