@@ -25,5 +25,11 @@ fields:
   hidden: true
   default:
   - documentation
+- type: text
+  name: subheading
+  label: Subheading
+  description: The words which goes underneath the title
+  config:
+    required: true
 pages:
 - documentation/example-documentation.md
