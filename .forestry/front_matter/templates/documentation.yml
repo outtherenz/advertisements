@@ -19,17 +19,17 @@ fields:
   label: Poster image
   name: poster_image
   description: The image that shows in the video box before it begun
-- type: tag_list
-  label: Categories
-  name: cat
-  hidden: true
-  default:
-  - documentation
 - type: text
   name: subheading
   label: Subheading
   description: The words which goes underneath the title
   config:
     required: true
+- type: tag_list
+  label: Categories
+  name: cat
+  hidden: true
+  default:
+  - documentation
 pages:
 - documentation/example-documentation.md
