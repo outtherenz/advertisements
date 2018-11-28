@@ -11,11 +11,9 @@ layout: ''
 	    console.log('!')
     </script>
     
-    {% for item in site.promotions %}
-    	<script>
-          console.log({{item}})
-	    </script>
-    	{{ item }}
+    {% for page in site.pages %}
+    <h3><a title="{{ page.title }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h3>
+    <p>{{page.excerpt}}</p>
     {% endfor %}
   </ul>
 </div>
