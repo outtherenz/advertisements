@@ -1,0 +1,12 @@
+<div class="body">
+  {% if page.video_src != "" %}
+    <iframe
+      src="{{ page.video_src }}"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      webkitallowfullscreen
+      mozallowfullscreen
+      allowfullscreen
+    ></iframe>
+  {% endif %}
+</div>
