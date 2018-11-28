@@ -6,7 +6,7 @@ video_src: https://s3-ap-southeast-2.amazonaws.com/back-coster-assets/backcoster
 categories:
 - documentation
 cat: []
-poster_image: "/uploads/Out-there-logo.gif"
+poster_image: "/uploads/buildaprice-logo.png"
 
 ---
 Watch this very interesting video
