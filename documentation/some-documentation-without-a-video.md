@@ -8,7 +8,6 @@ poster_image: ''
 subheading: This is an example of documentation that doesn't have a video, or a poster
   image for that matter...
 video_src: ''
-published: false
 
 ---
 The content will probably be marked up in here
