@@ -1,0 +1,18 @@
+---
+layout: ''
+
+---
+<div class="home">
+  <h1 class="page-heading">Builda Price Documentation</h1>
+  {% for cat in site.category-list %}
+    {% if cat == 'documentation' %}
+      {% for page in site.pages %}
+        {% for pc in page.categories %}
+          {% if pc == 'documentation' %}
+            <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</li><br />
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>
