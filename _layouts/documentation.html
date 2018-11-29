@@ -6,7 +6,7 @@
 </script>
 
 <div class="home">
-  <h1 class="page-heading"><i class="fas fa-arrow-circle-left" onclick="window.history.back();"></i>&nbsp;&nbsp;{{ page.title }}</h1>
+  <h1 class="page-heading"><i class="fas fa-arrow-circle-left back-button" onclick="window.history.back();"></i>&nbsp;&nbsp;{{ page.title }}</h1>
   <div class="documentation-items">
     {% unless page.video_src == '' %}
       <video
@@ -34,7 +34,7 @@
         download
         class="button--download"
       >
-        <i class="fas fa-cloud-download"></i>&nbsp;Download file
+        <i class="fas fa-download"></i>&nbsp;&nbsp;Download file
       </a>
     {% endunless %}
   </div>

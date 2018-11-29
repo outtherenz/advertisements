@@ -18,7 +18,6 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 
 .documentation-items {
@@ -70,10 +69,7 @@ html {
 
 .page-items__item-row {
   position: absolute;
-  height: 16px;
-  line-height: 16px;
-  font-size: 32.5px;
-  font-weight: bold;
+  font-size: 25px;
   bottom: $margin;
   right: $margin;
   color: $whisp;
@@ -100,4 +96,11 @@ video {
 		color: #37a;
 		cursor: pointer;
 	}
+}
+
+.back-button {
+  cursor: pointer;
+  &:hover {
+    color: #666;
+  }
 }
