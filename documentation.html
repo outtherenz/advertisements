@@ -6,24 +6,4 @@ layout: ''
 
 <div class="home">
   <h1 class="page-heading">Builda Price Documentation!</h1>
-  <div class="page-items">
-    {% for page in site.pages %}
-      {% for pc in page.categories %}
-        {% if pc == 'documentation' %}
-          <div class="page-items__item">
-            <a href="{{ site.baseurl }}{{ page.url }}">
-              {% if page.poster_image %}
-                <div class="page-items__item-image">
-                  <img src="{{ site.baseurl }}{{ page.poster_image }}" />
-                </div>
-              {% endif %}
-              <h3>{{ page.title }}</h3>
-              <p>{{ page.subheading }}</p>
-              <span class="page-items__item-row">→</span>
-            </a>
-          </div>
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-  </div>
 </div>
