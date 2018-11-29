@@ -8,6 +8,7 @@ categories:
 cat: []
 poster_image: "/uploads/buildaprice-logo.png"
 subheading: This is an example documentation description
+file: "/uploads/screencapture-68-183-20-239-2018-10-16-16_52_41.pdf"
 
 ---
 Watch this very interesting video
