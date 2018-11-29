@@ -8,6 +8,11 @@ $copy-color: #333;
 $whisp: #c4c4c4;
 $border-radius: 15px;
 $off-white: #fdfdfd;
+$spacing-unit: 30px;
+$brand-color:#3377aa;
+$grey-color: #828282;
+$grey-color-light: lighten($grey-color, 30%);
+$grey-color-dark: darken($grey-color, 25%);
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
