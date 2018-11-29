@@ -18,13 +18,14 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .documentation-items {
   display: flex;
   flex-direction: column;
   padding-bottom: 16.66vh;
+  align-items: flex-start;
 }
 
 .page-items__item {
