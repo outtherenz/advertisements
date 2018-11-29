@@ -30,7 +30,7 @@ I can even quote someone:
 
 > _Men make their own history, but they do not make it as they please. -_ Karl Marx
 
-    const youCanEvenMake(codeBlocks) => {
+    const youCanEvenMake = (codeBlocks) => {
       if (typeof codeBlocks !== 'string') throw Error('You must provide a string')
-      return codeBlocks;
+      return codeBlocks
     }
