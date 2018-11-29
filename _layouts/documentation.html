@@ -5,35 +5,35 @@
   const player = new Plyr('video');
 </script>
 
-<div class="body">
-  <div class="container">
-    {% unless page.video_src == '' %}
-      <video
-        controls
-        crossorigin
-        playsinline
-        poster="{{ site.url }}{{ site.baseurl }}{{ page.poster_image }}"
+<div class="home">
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {% unless page.video_src == '' %}
+    <video
+      controls
+      crossorigin
+      playsinline
+      poster="{{ site.url }}{{ site.baseurl }}{{ page.poster_image }}"
+    >
+      <source src="{{ page.video_src }}" type="video/mp4">
+      <!-- Fallback for browsers that don't support the <video> element -->
+      <a
+        href="{{page.video_src}}"
+        download
       >
-        <source src="{{ page.video_src }}" type="video/mp4">
-        <!-- Fallback for browsers that don't support the <video> element -->
-        <a
-          href="{{page.video_src}}"
-          download
-        >
-          Download
-        </a>
-      </video>
-    {% endunless %}
-  </div>
+        Download
+      </a>
+    </video>
+  {% endunless %}
 
   {{ content }}
 
-  {% if page.file %}
+  {% unless page.file == '' %}
     <a
       href="{{ site.url }}{{ site.baseurl }}{{ page.file }}"
       download
+      class="button--download"
     >
       ↓&nbsp;Download file
     </a>
-  {% endif %}
+  {% endunless %}
 </div>

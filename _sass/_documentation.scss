@@ -70,3 +70,24 @@ html {
   right: $margin;
   color: $whisp;
 }
+
+.plyr--video {
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+	margin-bottom: $margin * 2;
+}
+
+.button--download {
+	margin: 1em;
+	padding: 0.5em 1em;
+  border: 2px solid #37a;
+  background-color: #37a;
+  border-radius: 5px;
+  color: white;
+  white-space: nowrap;
+  text-decoration: none;
+	&:hover {
+		background-color: white;
+		color: #37a;
+		cursor: pointer;
+	}
+}
