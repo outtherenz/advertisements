@@ -4,10 +4,10 @@ layout: documentation
 categories:
 - documentation
 date: 2018-11-28 23:20:23 +0000
-poster_image: "/uploads/download-1.png"
+poster_image: ''
 subheading: This is an example of documentation that doesn't have a video, or a poster
   image for that matter...
-video_src: asd
+video_src: ''
 file: "/uploads/screencapture-68-183-20-239-2018-10-16-16_52_41.pdf"
 
 ---
