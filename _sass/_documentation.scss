@@ -22,7 +22,8 @@ html {
 
 .page-items__item {
   width: 300px;
-  padding: $margin;
+  position: relative;
+  padding: $margin $margin $margin * 3;
   margin: $margin;
   cursor: pointer;
   border-radius: $border-radius;
@@ -60,8 +61,12 @@ html {
 }
 
 .page-items__item-row {
-  float: right;
-  color: $whisp;
+  position: absolute;
+  height: 16px;
+  line-height: 16px;
   font-size: 32.5px;
   font-weight: bold;
+  bottom: $margin;
+  right: $margin;
+  color: $whisp;
 }
