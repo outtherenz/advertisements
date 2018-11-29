@@ -8,7 +8,7 @@ poster_image: "/uploads/download-1.png"
 subheading: This is an example of documentation that doesn't have a video, or a poster
   image for that matter...
 video_src: asd
-file: ''
+file: "/uploads/screencapture-68-183-20-239-2018-10-16-16_52_41.pdf"
 
 ---
 The content will probably be marked up in here
