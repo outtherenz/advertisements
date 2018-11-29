@@ -7,7 +7,8 @@ date: 2018-11-28 23:20:23 +0000
 poster_image: ''
 subheading: This is an example of documentation that doesn't have a video, or a poster
   image for that matter...
-video_src: ''
+video_src: asd
+file: ''
 
 ---
 The content will probably be marked up in here
