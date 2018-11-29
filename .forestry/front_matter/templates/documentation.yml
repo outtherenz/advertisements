@@ -36,6 +36,7 @@ fields:
   default:
   - documentation
 pages:
-- documentation/example-documentation.md
-- documentation/another-example-documentation.md
+- documentation/new-one.md
 - documentation/some-documentation-without-a-video.md
+- documentation/another-example-documentation.md
+- documentation/example-documentation.md
