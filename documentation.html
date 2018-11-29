@@ -12,7 +12,7 @@ layout: ''
         {% if pc == 'documentation' %}
           <div class="page-items__item">
             <a href="{{ site.baseurl }}{{ page.url }}">
-              {% unless page.poster_image == null %}
+              {% unless page.poster_image == '' %}
                 <div class="page-items__item-image">
                   <img src="{{ site.baseurl }}{{ page.poster_image }}" />
                 </div>
