@@ -59,8 +59,8 @@ Out There now offers a Payroll Service.
 
 ## About Out There Payroll and Builda Price
 
-Your labour hours collected in Builda Price from timesheets will be automatically fed to the Out There Payroll Service. When your payroll comes around, your payroll will be automatically processed.
+The labour hours you collect in Builda Price from timesheets are automatically fed into the Out There Payroll Service. When your payroll comes around, your payroll is automatically processed.
 
 ## How do I get integrated?
 
-Easy, simply get registered with Out There Payroll by [clicking here](#). Once you're setup, your payroll will be managed automatically.
+Easy. Simply get registered with Out There Payroll by [clicking here](#). Once you're setup, your payroll is managed automatically.
