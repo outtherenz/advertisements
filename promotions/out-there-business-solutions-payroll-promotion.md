@@ -53,9 +53,9 @@ categories:
 ---
 ## About Out There
 
-Out There Business Solutions helps customers implement best-in-class solutions for operational excellence, business intelligence, administration, and accounting compliance management.
-
-Out There is now offering a payroll service.
+Out There Business Solutions helps customers implement best-in-class solutions for operational excellence, business intelligence, administration, and accounting compliance management.  
+  
+Out There now offers a Payroll Service. 
 
 ## About Out There Payroll and Builda Price
 
