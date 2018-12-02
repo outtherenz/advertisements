@@ -69,4 +69,4 @@ Labour hours collected in Builda Price from timesheets are able to be exported d
 
 ## How do I get integrated?
 
-Easy, simply get registered with Crystal Payroll by clicking here. Once you're setup, simply select Crystal Payroll when exporting your payroll from Back Coster. The file can then be uploaded into Crystal Payroll for your payroll.
+Easy. Simply get registered with Crystal Payroll by clicking here. Once you're setup, simply select Crystal Payroll when exporting your payroll from Back Coster. The file can then be uploaded into Crystal Payroll for your payroll.
