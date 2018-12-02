@@ -47,9 +47,11 @@ product_pricing: |-
       <td>$1,099.00</td>
     </tr>
   </table>
-categories: [promotions]
+categories:
+- promotions
+
 ---
-## About Crystal Payroll
+## What is Crystal Payroll?
 
 Available on any device, anywhere, anytime!
 
@@ -61,7 +63,7 @@ If you can access the internet, you can access your payroll.
 * Your employees can access their own payslip records online any time
 * Your accountant can access your payroll records online with permission
 
-## About Crystal Payroll and Builda Price
+## What does Crystal Payroll and Builda Price do?
 
 Labour hours collected in Builda Price from timesheets are able to be exported directly into Crystal Payroll. Once your timesheet information is imported you can enjoy all the benefits of a complete payroll system, without compromising on job back costing and pricing.
 
