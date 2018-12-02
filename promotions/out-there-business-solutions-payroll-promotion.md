@@ -4,7 +4,7 @@ layout: promotion
 date: 2018-10-18 02:59:04 +0000
 product_name: Out There Payroll
 product_logo: "/uploads/Out-there-logo.gif"
-tagline: Out There Business Solutions provides a Payroll Service.
+tagline: Out There Business Solutions provides a Payroll Service
 product_pricing: |-
   <table>
     <tr>
