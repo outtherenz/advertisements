@@ -65,7 +65,7 @@ If you can access the internet, you can access your payroll.
 
 ## What does Crystal Payroll and Builda Price do?
 
-Labour hours collected in Builda Price from timesheets are able to be exported directly into Crystal Payroll. Once your timesheet information is imported you can enjoy all the benefits of a complete payroll system, without compromising on job back costing and pricing.
+Labour hours collected in Builda Price from timesheets are exported directly into Crystal Payroll. Once your timesheet information is imported you can enjoy all the benefits of a complete payroll system, without compromising on job back costing and pricing.
 
 ## How do I get integrated?
 
