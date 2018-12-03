@@ -9,39 +9,39 @@ product_pricing: |-
   <table>
     <tr>
       <th>Employees</th>
-      <th>Price</th>
+      <th>Price p/m</th>
     </tr>
     <tr>
       <td>Up to 5</td>
-      <td>$199.00</td>
+      <td>$320.00</td>
     </tr>
     <tr>
       <td>Up to 10</td>
-      <td>$299.00</td>
+      <td>$590.00</td>
     </tr>
     <tr>
       <td>Up to 15</td>
-      <td>$399.00</td>
+      <td>$860.00</td>
     </tr>
     <tr>
       <td>Up to 20</td>
-      <td>$499.00</td>
+      <td>$1,130.00</td>
     </tr>
     <tr>
       <td>Up to 25</td>
-      <td>$599.00</td>
+      <td>$1,400.00</td>
     </tr>
     <tr>
       <td>Up to 30</td>
-      <td>$699.00</td>
+      <td>$1,675.00</td>
     </tr>
     <tr>
       <td>Up to 40</td>
-      <td>$899.00</td>
+      <td>$2,215.00</td>
     </tr>
     <tr>
       <td>Up to 50</td>
-      <td>$1,099.00</td>
+      <td>$2,760.00</td>
     </tr>
   </table>
 iframe_video_src: ''
