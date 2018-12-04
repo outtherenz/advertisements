@@ -13,40 +13,40 @@ product_pricing: |-
     </tr>
     <tr>
       <td>Up to 5</td>
-      <td>$199.00</td>
+      <td>$340.00</td>
     </tr>
     <tr>
       <td>Up to 10</td>
-      <td>$299.00</td>
+      <td>$620.00</td>
     </tr>
     <tr>
       <td>Up to 15</td>
-      <td>$399.00</td>
+      <td>$900.00</td>
     </tr>
     <tr>
       <td>Up to 20</td>
-      <td>$499.00</td>
+      <td>$1,180.00</td>
     </tr>
     <tr>
       <td>Up to 25</td>
-      <td>$599.00</td>
+      <td>$1,460.00</td>
     </tr>
     <tr>
       <td>Up to 30</td>
-      <td>$699.00</td>
+      <td>$1,740.00</td>
     </tr>
     <tr>
       <td>Up to 40</td>
-      <td>$899.00</td>
+      <td>$2,300.00</td>
     </tr>
     <tr>
       <td>Up to 50</td>
-      <td>$1,099.00</td>
+      <td>$2,850.00</td>
     </tr>
   </table>
 
   <span style="margin-top: 1em; color: #ccc; text-align: center;">
-    <i>*All amounts are exclusive of GST.</i>
+    <i>*All amounts are exclusive of GST and are rounded up from actual pricing.</i>
   </span>
 iframe_video_src: ''
 timesheets_integration: true
