@@ -45,9 +45,9 @@ product_pricing: |-
     </tr>
   </table>
 
-  <span style="margin-top: 1em; color: #ccc; text-align: center;">
+  <div style="margin-top: 1em; color: #ccc; text-align: center;">
     <i>*All amounts are exclusive of GST and are rounded up from actual pricing.</i>
-  </span>
+  </div>
 iframe_video_src: ''
 timesheets_integration: true
 invoice_integration: false
