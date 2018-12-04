@@ -48,9 +48,9 @@ product_pricing: |-
     </tr>
   </table>
 
-  <span style="margin-top: 1em; color: #ccc; text-align: center;">
+  <div style="margin-top: 1em; color: #ccc; text-align: center;">
     <i>*All amounts are exclusive of GST.</i>
-  </span>
+  </div>
 categories:
 - promotions
 
