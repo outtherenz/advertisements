@@ -2,9 +2,9 @@
 title: Out There Business Solutions & Builda Price Payroll Promotion
 layout: promotion
 date: 2018-10-18 02:59:04 +0000
-product_name: Out There & Builda Price Payroll Solution
+product_name: Out There Payroll Solution
 product_logo: "/uploads/Out-there-logo.gif"
-tagline: Out There Business Solutions provides a Payroll Service
+tagline: Out There and Builda Price are providing a Payroll Service
 product_pricing: |-
   <table>
     <tr>
