@@ -12,7 +12,7 @@ product_pricing: |-
   <table>
     <tr>
       <th>Employees</th>
-      <th>Price</th>
+      <th>Price p/m*</th>
     </tr>
     <tr>
       <td>Up to 5</td>
@@ -47,6 +47,10 @@ product_pricing: |-
       <td>$1,099.00</td>
     </tr>
   </table>
+
+  <span style="margin-top: 1em; color: #ccc; text-align: center;">
+    <i>*All amounts are exclusive of GST.</i>
+  </span>
 categories:
 - promotions
 
