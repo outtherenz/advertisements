@@ -6,47 +6,8 @@ product_name: Out There & Builda Price Payroll Solution
 product_logo: "/uploads/outtherelogo 144x144-2.png"
 tagline: Out There Business Solutions provides a Payroll Service
 product_pricing: |-
-  <table>
-    <tr>
-      <th>Employees</th>
-      <th>Price p/m*</th>
-    </tr>
-    <tr>
-      <td>Up to 5</td>
-      <td>$340.00</td>
-    </tr>
-    <tr>
-      <td>Up to 10</td>
-      <td>$620.00</td>
-    </tr>
-    <tr>
-      <td>Up to 15</td>
-      <td>$900.00</td>
-    </tr>
-    <tr>
-      <td>Up to 20</td>
-      <td>$1,180.00</td>
-    </tr>
-    <tr>
-      <td>Up to 25</td>
-      <td>$1,460.00</td>
-    </tr>
-    <tr>
-      <td>Up to 30</td>
-      <td>$1,740.00</td>
-    </tr>
-    <tr>
-      <td>Up to 40</td>
-      <td>$2,300.00</td>
-    </tr>
-    <tr>
-      <td>Up to 50</td>
-      <td>$2,850.00</td>
-    </tr>
-  </table>
-
-  <span style="margin-top: 1em; color: #ccc;">
-    <i>All amounts are exclusive of GST and are rounded.</i>
+  <span style="margin-top: 1em; color: #ccc; text-align: center;">
+    <i>*All amounts are exclusive of GST and are rounded.</i>
   </span>
 iframe_video_src: ''
 timesheets_integration: true
