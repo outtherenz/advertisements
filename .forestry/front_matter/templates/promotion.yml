@@ -55,3 +55,5 @@ fields:
   hidden: true
   default:
   - promotions
+pages:
+- promotions/out-there-business-solutions-accounting.md
