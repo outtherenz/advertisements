@@ -42,7 +42,6 @@ iframe_video_src: ''
 timesheets_integration: false
 invoice_integration: false
 jobs_integration: false
-published: false
 
 ---
 ## Who is Out There?
@@ -57,10 +56,10 @@ Out There Accounting has two tiers available for purchase, with one add-on shoul
 
 In Accounting Core you receive the following:
 
-\- GST Returns  
-\- Annual Accounts  
-\- Personal Tax Returns  
-These are all completed by a professional accountant.  
+\- GST Returns_  
+_- Annual Accounts  
+\- Personal Tax Returns_  
+_These are all completed by a professional accountant.  
 We also Audit your Back Costing and report, and calculate you Back Coster Two-Monthly Overhead percentages.
 
 With Accounting Extra you receive everything that Accounting Core has with the addition of:
