@@ -1,7 +1,7 @@
 ---
 title: Out There Business Solutions Accounting
 layout: promotion
-categories:
+cat:
 - promotions
 date: 2018-12-10 21:52:44 +0000
 product_name: Out There Business Solutions Accounting
@@ -42,6 +42,8 @@ iframe_video_src: ''
 timesheets_integration: false
 invoice_integration: false
 jobs_integration: false
+categories:
+- promotions
 
 ---
 ## Who is Out There?
@@ -56,11 +58,10 @@ Out There Accounting has two tiers available for purchase, with one add-on shoul
 
 In Accounting Core you receive the following:
 
-\- GST Returns_
-_- Annual Accounts
-\- Personal Tax Returns_
-_These are all completed by a professional accountant.
-We also Audit your Back Costing and report, and calculate you Back Coster Two-Monthly Overhead percentages.
+\- GST Returns  
+_-_ Annual Accounts
+_-_ Personal Tax Return_s_   
+These are all completed by a professional accountant. We also Audit your Back Costing and report, and calculate you Back Coster Two-Monthly Overhead percentages.
 
 With Accounting Extra you receive everything that Accounting Core has with the addition of:
 
