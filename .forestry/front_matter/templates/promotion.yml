@@ -51,7 +51,7 @@ fields:
   description: Check if your app integrates with jobs
 - type: tag_list
   label: Categories
-  name: cat
+  name: categories
   hidden: true
   default:
   - promotions
