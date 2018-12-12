@@ -39,33 +39,35 @@
       {{ content }}
     </section>
     <aside>
-      <h2>
-        Data shared
-      </h2>
-      <table>
-        <tr>
-          <th>Builda Price</th>
-          <th>Data Flow</th>
-        </tr>
-        {% if page.timesheets_integration %}
+      {% if page.timesheets_integration or page.invoice_integration or page.jobs_integration %}
+        <h2>
+          Data shared
+        </h2>
+        <table>
           <tr>
-            <td>Timesheets</td>
-            <td><span class="arrow">&rarr;</span></td>
+            <th>Builda Price</th>
+            <th>Data Flow</th>
           </tr>
-        {% endif %}
-        {% if page.invoice_integration %}
-          <tr>
-            <td>Invoices</td>
-            <td><span class="arrow">&rarr;</span></td>
-          </tr>
-        {% endif %}
-        {% if page.jobs_integration %}
-          <tr>
-            <td>Jobs</td>
-            <td><span class="arrow">&rarr;</span></td>
-          </tr>
-        {% endif %}
-      </table>
+          {% if page.timesheets_integration %}
+            <tr>
+              <td>Timesheets</td>
+              <td><span class="arrow">&rarr;</span></td>
+            </tr>
+          {% endif %}
+          {% if page.invoice_integration %}
+            <tr>
+              <td>Invoices</td>
+              <td><span class="arrow">&rarr;</span></td>
+            </tr>
+          {% endif %}
+          {% if page.jobs_integration %}
+            <tr>
+              <td>Jobs</td>
+              <td><span class="arrow">&rarr;</span></td>
+            </tr>
+          {% endif %}
+        </table>
+      {% endif %}
       <h2>
         Pricing
       </h2>
