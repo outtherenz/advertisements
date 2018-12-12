@@ -61,8 +61,7 @@ In Accounting Core you receive the following:
 * GST Returns
 * Annual Accounts
 * Personal Tax Returns
-
-  These are all completed by a professional accountant. We also Audit your Back Costing, and report and calculate your Back Coster Two-Monthly Overhead percentages.
+* These are all completed by a professional accountant. We also Audit your Back Costing, and report and calculate your Back Coster Two-Monthly Overhead percentages.
 
 With Accounting Extra you receive everything that Accounting Core has with the addition of:
 
