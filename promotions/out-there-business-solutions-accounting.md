@@ -70,7 +70,3 @@ With Accounting Extra you receive everything that Accounting Core has with the a
 With Out There Accounting we also offer an extra Training Add-On which includes:
 
 * Xero Training including Builda Price Xero Back Costing.
-
-## How do I get integrated?
-
-Easy. Simply get registered with Out There Accounting by [clicking here](#). Once you're setup, we will get in contact with you.
