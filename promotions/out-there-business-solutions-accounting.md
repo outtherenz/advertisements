@@ -74,4 +74,4 @@ With Out There Accounting we also offer an extra Training Add-On which includes:
 
 ## How do I get integrated?
 
-Easy. Simply get registered with Out There Accounting by [clicking here](#). Once you're setup, will get in contact with you.
+Easy. Simply get registered with Out There Accounting by [clicking here](#). Once you're setup, we will get in contact with you.
