@@ -46,7 +46,7 @@ categories:
 - promotions
 
 ---
-## Who is Out There?
+## Who is Out There Business Solutions?
 
 Out There Business Solutions helps customers implement best-in-class solutions for operational excellence, business intelligence, administration, and accounting compliance management.
 
@@ -61,7 +61,8 @@ In Accounting Core you receive the following:
 * GST Returns
 * Annual Accounts
 * Personal Tax Returns
-* These are all completed by a professional accountant. We also Audit your Back Costing and report, and calculate you Back Coster Two-Monthly Overhead percentages.
+
+  These are all completed by a professional accountant. We also Audit your Back Costing, and report and calculate your Back Coster Two-Monthly Overhead percentages.
 
 With Accounting Extra you receive everything that Accounting Core has with the addition of:
 
@@ -73,4 +74,4 @@ With Out There Accounting we also offer an extra Training Add-On which includes:
 
 ## How do I get integrated?
 
-Easy. Simply get registered with Out There Accounting by [clicking here](#). Once you're setup, your payroll is managed automatically.
+Easy. Simply get registered with Out There Accounting by [clicking here](#). Once you're setup, will get in contact with you.
