@@ -57,14 +57,10 @@ categories:
 ---
 ## Who is Out There?
 
-Out There Business Solutions helps customers implement best-in-class solutions for operational excellence, business intelligence, administration, and accounting compliance management.  
-  
-Out There now offers a Payroll Service. 
+Out There Business Solutions helps customers implement best-in-class solutions for operational excellence, business intelligence, administration, and accounting compliance management.
+
+Out There now offers a Payroll Service.
 
 ## What does Out There Payroll and Builda Price do?
 
 The labour hours you collect in Builda Price from timesheets are automatically fed into the Out There Payroll Service. When your payroll comes around, your payroll is automatically processed.
-
-## How do I get integrated?
-
-Easy. Simply get registered with Out There Payroll by [clicking here](#). Once you're setup, your payroll is managed automatically.
