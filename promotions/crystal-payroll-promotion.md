@@ -4,7 +4,8 @@ layout: promotion
 date: 2018-10-18 01:28:50 +0000
 product_name: Crystal Payroll
 product_logo: "/uploads/1439350881.png"
-tagline: Crystal Payroll is a payroll system that will change your life
+tagline: Crystal Payroll is a Builda Price integrated payroll system that will change
+  your life
 iframe_video_src: https://www.youtube.com/embed/wkdc-lILWmQ
 timesheets_integration: true
 invoice_integration: false
