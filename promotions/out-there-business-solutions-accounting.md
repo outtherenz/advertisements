@@ -58,18 +58,18 @@ Out There Accounting has two tiers available for purchase, with one add-on shoul
 
 In Accounting Core you receive the following:
 
-\- GST Returns  
-_-_ Annual Accounts
-_-_ Personal Tax Returns  
-These are all completed by a professional accountant. We also Audit your Back Costing and report, and calculate you Back Coster Two-Monthly Overhead percentages.
+* GST Returns
+* Annual Accounts
+* Personal Tax Returns
+* These are all completed by a professional accountant. We also Audit your Back Costing and report, and calculate you Back Coster Two-Monthly Overhead percentages.
 
 With Accounting Extra you receive everything that Accounting Core has with the addition of:
 
-\- Xero Setup structured around Builda Price Pricing and Back Costing
+* Xero Setup structured around Builda Price Pricing and Back Costing
 
 With Out There Accounting we also offer an extra Training Add-On which includes:
 
-\- Xero Training including Builda Price Xero Back Costing.
+* Xero Training including Builda Price Xero Back Costing.
 
 ## How do I get integrated?
 
