@@ -9,6 +9,7 @@ subheading: This is an example of documentation that doesn't have a video, or a 
   image for that matter...
 video_src: ''
 file: "/uploads/screencapture-68-183-20-239-2018-10-16-16_52_41.pdf"
+published: false
 
 ---
 The content will probably be marked up in here
