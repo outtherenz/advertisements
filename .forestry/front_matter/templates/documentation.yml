@@ -36,8 +36,8 @@ fields:
   default:
   - documentation
 pages:
+- documentation/ben-talking-with-music.md
 - documentation/example-documentation.md
 - documentation/ben-talking-with-no-music.md
-- documentation/ben-talking-with-music.md
 - documentation/some-documentation-without-a-video.md
 - documentation/another-example-documentation.md
