@@ -37,10 +37,8 @@ html {
   background-color: $off-white;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
   transition: all 0.25s;
-  a {
-    color: $copy-color;
-    text-decoration: none;
-  }
+  color: $copy-color;
+  text-decoration: none;
   img {
    height: auto;
    width: 100%;
