@@ -10,18 +10,16 @@ layout: ''
     {% for page in site.pages %}
       {% for pc in page.categories %}
         {% if pc == 'documentation' %}
-          <div class="page-items__item">
-            <a href="{{ site.baseurl }}{{ page.url }}">
-              {% unless page.poster_image == '' %}
-                <div class="page-items__item-image">
-                  <img src="{{ site.baseurl }}{{ page.poster_image }}" />
-                </div>
-              {% endunless %}
-              <h3>{{ page.title }}</h3>
-              <p>{{ page.subheading }}</p>
-              <span class="page-items__item-row"><i class="fas fa-arrow-right"></i></span>
-            </a>
-          </div>
+          <a href="{{ site.baseurl }}{{ page.url }}" class="page-items__item">
+            {% unless page.poster_image == '' %}
+              <div class="page-items__item-image">
+                <img src="{{ site.baseurl }}{{ page.poster_image }}" />
+              </div>
+            {% endunless %}
+            <h3>{{ page.title }}</h3>
+            <p>{{ page.subheading }}</p>
+            <span class="page-items__item-row"><i class="fas fa-arrow-right"></i></span>
+          </a>
         {% endif %}
       {% endfor %}
     {% endfor %}
