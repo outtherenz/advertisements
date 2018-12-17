@@ -11,3 +11,4 @@ video_src: ''
 file: "/uploads/Builda-Price-User-Manual.pdf"
 
 ---
+Click the button to download the user manual for Builda Price Pricing.
