@@ -9,6 +9,5 @@ poster_image: ''
 subheading: In this video we go over checking the total
 video_src: https://s3-ap-southeast-2.amazonaws.com/back-coster-assets/bp-training-videos/Checking+the+total.mp4
 file: ''
-published: false
 
 ---
