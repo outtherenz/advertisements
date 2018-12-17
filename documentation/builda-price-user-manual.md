@@ -8,7 +8,8 @@ page_title: Builda Price user manual
 poster_image: ''
 subheading: The user manual for Builda Price Pricing
 video_src: ''
-file: "/uploads/Builda-Price-User-Manual.pdf"
+file: ''
+open_file: "/uploads/Builda-Price-User-Manual.pdf"
 
 ---
 Click the button to download the user manual for Builda Price Pricing.
