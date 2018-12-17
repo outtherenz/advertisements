@@ -36,6 +36,10 @@ fields:
   label: Downloadable file
   name: file
   description: You might want to provide some downloadable material
+- type: file
+  label: Openable file
+  name: open_file
+  description: You might want to provide some openable material
 - type: tag_list
   label: Categories
   name: categories
