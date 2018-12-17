@@ -5,7 +5,13 @@ layout: ''
 {% include head-documentation.html %}
 
 <div class="home">
-  <h1 class="page-heading">Builda Price Documentation</h1>
+  <h1 class="page-heading">
+    <img
+      style="display: block; height: 65px; margin: 0 auto; margin-bottom: 0.5em;"
+      src="{{ site.baseurl }}/uploads/buildaprice-logo.png"
+    />
+    Builda Price Documentation
+  </h1>
   <div class="page-items">
     {% for page in site.pages %}
       {% for pc in page.categories %}
