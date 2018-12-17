@@ -9,6 +9,13 @@ fields:
   description: Do not change
   hidden: true
   default: documentation
+- type: text
+  label: Title
+  name: page_title
+  description: The title for the article
+  hidden: false
+  config:
+    required: true
 - type: file
   label: Poster image
   name: poster_image
