@@ -29,24 +29,28 @@
 
     {{ content }}
 
-    {% unless page.file == '' %}
-      <a
-        href="{{ site.url }}{{ site.baseurl }}{{ page.file }}"
-        download
-        class="button--download"
-      >
-        <i class="fas fa-download"></i>&nbsp;&nbsp;Download file
-      </a>
-    {% endunless %}
+    {% if page.file %}
+      {% unless page.file == '' %}
+        <a
+          href="{{ site.url }}{{ site.baseurl }}{{ page.file }}"
+          download
+          class="button--download"
+        >
+          <i class="fas fa-download"></i>&nbsp;&nbsp;Download file
+        </a>
+      {% endunless %}
+    {% endif %}
 
-    {% unless page.open_file == '' %}
-      <a
-        href="{{ site.url }}{{ site.baseurl }}{{ page.open_file }}"
-        target="_blank"
-        class="button--download"
-      >
-        <i class="fas fa-external-link-square-alt"></i>&nbsp;&nbsp;Open file
-      </a>
-    {% endunless %}
+    {% if page.open_file %}
+      {% unless page.open_file == '' %}
+        <a
+          href="{{ site.url }}{{ site.baseurl }}{{ page.open_file }}"
+          target="_blank"
+          class="button--download"
+        >
+          <i class="fas fa-external-link-square-alt"></i>&nbsp;&nbsp;Open file
+        </a>
+      {% endunless %}
+    {% endif %}
   </div>
 </div>
