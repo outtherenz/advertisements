@@ -9,9 +9,25 @@ html {
   margin: 0 auto;
 }
 
+.page-header {
+  display: block;
+  border-bottom: 1px solid rgba(black, 0.15);
+}
+
+.page-header__logo {
+  display: block;
+  height: 65px;
+  margin: $margin auto;
+}
+
 .page-heading {
-  text-align: center;
   margin: $margin * 2 0;
+}
+
+.section-heading {
+  text-align: center;
+  margin-top: $margin * 2;
+
 }
 
 .page-items {
@@ -101,4 +117,8 @@ video {
   &:hover {
     color: #666;
   }
+}
+
+.text-center {
+  text-align: center;
 }

@@ -3,6 +3,8 @@ title: Checking labour
 layout: documentation
 categories:
 - documentation
+sub_categories:
+- Intro
 date: 2018-12-17 22:21:58 +0000
 page_title: Checking Labour
 poster_image: ''

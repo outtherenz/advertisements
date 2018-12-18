@@ -3,6 +3,8 @@ title: Adjusting quantities
 layout: documentation
 categories:
 - documentation
+sub_categories:
+- Intro
 date: 2018-12-17 22:08:40 +0000
 page_title: Adjusting Quantities
 poster_image: ''

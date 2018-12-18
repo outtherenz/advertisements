@@ -3,6 +3,8 @@ title: Misc templates
 layout: documentation
 categories:
 - documentation
+sub_categories:
+- Settings
 date: 2018-12-17 22:28:27 +0000
 page_title: Misc Templates
 poster_image: ''

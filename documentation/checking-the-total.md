@@ -3,6 +3,8 @@ title: Checking the total
 layout: documentation
 categories:
 - documentation
+sub_categories:
+- Intro
 date: 2018-12-17 22:22:37 +0000
 page_title: Checking the total
 poster_image: ''

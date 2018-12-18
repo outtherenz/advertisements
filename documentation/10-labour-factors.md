@@ -3,6 +3,8 @@ title: Labour factors
 layout: documentation
 categories:
 - documentation
+sub_categories:
+- Settings
 date: 2018-12-17 22:27:06 +0000
 page_title: Labour factors
 poster_image: ''

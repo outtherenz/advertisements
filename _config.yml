@@ -16,3 +16,4 @@ redcarpet:
   extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
 
 category-list: [promotions,documentation]
+sub-category-list: [General,Intro,Settings,Workflow]

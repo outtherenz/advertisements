@@ -5,29 +5,38 @@ layout: ''
 {% include head-documentation.html %}
 
 <div class="home">
-  <h1 class="page-heading">
+  <div class="page-header">
     <img
-      style="display: block; height: 65px; margin: 0 auto; margin-bottom: 0.5em;"
+      class="page-header__logo"
       src="{{ site.baseurl }}/uploads/buildaprice-logo.png"
     />
+  </div>
+  <h1 class="page-heading">
     Builda Price Documentation
   </h1>
-  <div class="page-items">
-    {% for page in site.pages %}
-      {% for pc in page.categories %}
-        {% if pc == 'documentation' %}
-          <a href="{{ site.baseurl }}{{ page.url }}" class="page-items__item">
-            {% unless page.poster_image == '' %}
-              <div class="page-items__item-image">
-                <img src="{{ site.baseurl }}{{ page.poster_image }}" />
-              </div>
-            {% endunless %}
-            <h3>{{ page.page_title }}</h3>
-            <p>{{ page.subheading }}</p>
-            <span class="page-items__item-row"><i class="fas fa-arrow-right"></i></span>
-          </a>
-        {% endif %}
+  {% for subcategory in site.sub-category-list %}
+    <h2 class="section-heading">{{ subcategory }}</h2>
+    <div class="page-items">
+      {% for page in site.pages %}
+        {% for category in page.categories %}
+          {% if category == 'documentation' %}
+            {% for page_subcategory in page.sub_categories %}
+              {% if page_subcategory == subcategory %}
+                <a href="{{ site.baseurl }}{{ page.url }}" class="page-items__item">
+                  {% unless page.poster_image == '' %}
+                    <div class="page-items__item-image">
+                      <img src="{{ site.baseurl }}{{ page.poster_image }}" />
+                    </div>
+                  {% endunless %}
+                  <h3>{{ page.page_title }}</h3>
+                  <p>{{ page.subheading }}</p>
+                  <span class="page-items__item-row"><i class="fas fa-arrow-right"></i></span>
+                </a>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
-  </div>
+    </div>
+  {% endfor %}
 </div>

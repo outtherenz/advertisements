@@ -46,6 +46,12 @@ fields:
   hidden: true
   default:
   - documentation
+- type: tag_list
+  label: Sub Categories
+  name: sub_categories
+  hidden: true
+  default:
+  - General
 pages:
 - documentation/example-documentation.md
 - documentation/some-documentation-without-a-video.md

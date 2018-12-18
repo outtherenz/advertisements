@@ -3,6 +3,8 @@ title: Material rates
 layout: documentation
 categories:
 - documentation
+sub_categories:
+- Settings
 date: 2018-12-17 22:27:47 +0000
 page_title: Material Rates
 poster_image: ''
