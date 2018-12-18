@@ -5,7 +5,7 @@ categories:
 - documentation
 date: 2018-12-17 22:57:24 +0000
 page_title: Builda Price user manual
-poster_image: ''
+poster_image: "/uploads/download-2.png"
 subheading: The user manual for Builda Price Pricing
 video_src: ''
 file: ''
