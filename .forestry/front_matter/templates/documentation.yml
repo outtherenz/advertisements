@@ -53,8 +53,8 @@ fields:
   default:
   - General
 pages:
-- documentation/example-documentation.md
 - documentation/some-documentation-without-a-video.md
+- documentation/example-documentation.md
 - documentation/another-example-documentation.md
 - documentation/14-workflow-2-labour.md
 - documentation/09-flat-rate-resource.md
