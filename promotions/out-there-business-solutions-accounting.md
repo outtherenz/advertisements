@@ -4,7 +4,7 @@ layout: promotion
 cat:
 - promotions
 date: 2018-12-10 21:52:44 +0000
-product_name: Out There Business Solutions Accounting
+product_name: Builda Price Accounting Solutions
 product_logo: "/uploads/Out-there-logo.gif"
 tagline: Real-time Management Information at your fingertips
 product_pricing: |-
@@ -66,6 +66,8 @@ In Accounting Core you receive the following:
 With Accounting Extra you receive everything that Accounting Core has with the addition of:
 
 * Xero Setup structured around Builda Price Pricing and Back Costing
+* Quarterly management account reporting and review meetings to focus profitability and cashflow
+* Management accounts phone support form Builda Price accountants
 
 With Out There Accounting we also offer an extra Training Add-On which includes:
 
