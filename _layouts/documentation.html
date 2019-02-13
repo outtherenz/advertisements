@@ -6,7 +6,7 @@
 </script>
 
 <div class="home">
-  <h1 class="page-heading text-center"><i class="fas fa-arrow-circle-left back-button" onclick="window.history.back();"></i>&nbsp;&nbsp;{{ page.title }}</h1>
+  <h1 class="page-heading text-center"><i class="fas fa-arrow-circle-left back-button" onclick="window.history.back();"></i>&nbsp;&nbsp;{% if page.title %}{{ page.title }}{% elseif page.page_title %}{{ page.page_title }}{% endif %}</h1>
   <div class="documentation-items">
     {% unless page.video_src == '' %}
       <video
