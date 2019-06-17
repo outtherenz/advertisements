@@ -52,6 +52,7 @@ fields:
   default:
   - General
 pages:
+- documentation/02-setup-3-subcontractor-list.md
 - documentation/01-setup-2-overheads-setup.md
 - documentation/00-setup-1-flat-rate-setup.md
 - documentation/Backcoster Walkthrough.md
