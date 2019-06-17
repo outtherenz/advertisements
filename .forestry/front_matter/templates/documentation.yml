@@ -52,6 +52,7 @@ fields:
   default:
   - General
 pages:
+- documentation/00-setup-1-flat-rate-setup.md
 - documentation/Backcoster Walkthrough.md
 - documentation/20-workflow-8-exporting.md
 - documentation/19-workflow-7-totals.md
